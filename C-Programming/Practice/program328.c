@@ -1,0 +1,12 @@
+#include<stdio.h>
+
+typedef unsigned int UINT;
+
+int main()
+{  
+   //Smallest value of int
+   UINT iMask = 0x80000000;
+   printf("%u\t%X\n", iMask, iMask);  
+
+   return 0;
+}
